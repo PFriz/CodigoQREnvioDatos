@@ -1,28 +1,21 @@
-package cl.pfriz.applectorqr.QR
+package cl.pfriz.applectorqr.Utilidades.QR
 
 import android.Manifest
 import android.app.Activity
 import android.content.Context
-import android.support.v7.app.AppCompatActivity
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
-import android.os.Build
 import android.support.v4.app.ActivityCompat
-import android.support.v4.content.ContextCompat.startActivity
 import android.util.Log
 import android.view.SurfaceHolder
 import android.view.SurfaceView
-import android.view.View
 import android.webkit.URLUtil
 import android.widget.TextView
-import cl.pfriz.applectorqr.MainActivity
-import cl.pfriz.applectorqr.R
 import com.google.android.gms.vision.CameraSource
 import com.google.android.gms.vision.Detector
 import com.google.android.gms.vision.barcode.Barcode
 import com.google.android.gms.vision.barcode.BarcodeDetector
-import org.w3c.dom.Text
 import java.io.IOException
 
 class LectorQr {
